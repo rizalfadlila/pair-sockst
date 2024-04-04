@@ -1,0 +1,35 @@
+# Pair Socks
+There is a large pile of socks that must be paired by color. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
+
+**Example** 
+There is one pair of color x and one of color y. There are three odd socks left, one of each color. The number of pairs is 2.
+
+**Returns**
+* int: the number of pairs
+
+**Input Format**
+The first line contains an integer , the number of socks represented in . 
+The second line contains space-separated integers for the colors of the socks in the pile.
+
+**Constraints**
+* 1 <= n <= 100
+* 1 <= ar[i] <= 100 where 0 <= i <= n
+
+**Clues**
+* You may use Map implementations
+* You may also use other programming languages implementing the same platform to test your solution.
+
+**Sample Input**
+STDIN
+——                      
+9 
+10 20 20 10 10 30 50 10 20
+
+**Sample Output**
+3
+
+**Explanation**
+There are 2 pairs of 10 and 1 pair of 20, the rest are singles.
+
+**Code Template**
+Please find the code template in Solution.java
